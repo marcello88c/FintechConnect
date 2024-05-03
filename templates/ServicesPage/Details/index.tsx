@@ -27,11 +27,11 @@ const Details = ({}: DetailsProps) => {
               height={720}
               alt=""
             />
-            <Play className="absolute left-3 bottom-3 group-hover:bg-color-4 group-hover:fill-color-2" />
+            {/* <Play className="absolute left-3 bottom-3 group-hover:bg-color-4 group-hover:fill-color-2" /> */}
           </div>
         </div>
       </div>
-      <Modal
+      {/* <Modal
         visible={visibleModal}
         onClose={() => setVisibleModal(false)}
         video
@@ -39,7 +39,7 @@ const Details = ({}: DetailsProps) => {
         <video className="" autoPlay muted loop playsInline>
           <source src="/videos/video-1.mp4" type="video/mp4" />
         </video>
-      </Modal>
+      </Modal> */}
     </>
   );
 };
