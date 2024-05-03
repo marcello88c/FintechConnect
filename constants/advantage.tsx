@@ -1,56 +1,22 @@
-export const team = [
+export const advantage = [
   {
-    id: "0",
-    name: "Sarah Reynolds",
-    position: "Chief Financial Officer (CFO)",
-    photo: "/images/photo-2.jpg",
+    title: "Increase productivity",
+    content:
+      "Financial concerns are diverting your employees' attention, resulting in decreased productivity and heightened stress levels. Savology has the potential to enact tangible improvements.",
   },
   {
-    id: "1",
-    name: "David Nguyen",
-    position: "Senior Financial Analyst",
-    photo: "/images/photo-1.jpg",
+    title: "Improve retention",
+    content:
+      "Employees experiencing financial stress are prone to seeking alternative employment opportunities. Enhancing financial wellness can boost workplace engagement by up to 15%.",
   },
   {
-    id: "2",
-    name: "Jessica Patel",
-    position: "Investment Manager",
-    photo: "/images/photo-4.jpg",
+    title: "Reduce absenteeism",
+    content:
+      "Financial matters are diverting your employees' focus, resulting in decreased productivity and heightened stress levels. Savology can truly make an impact.",
   },
   {
-    id: "3",
-    name: "Michael Thompson",
-    position: "Risk Management Specialist",
-    photo: "/images/photo-3.jpg",
-  },
-  {
-    id: "4",
-    name: "Emily Wilson",
-    position: "Corporate Accountant",
-    photo: "/images/photo-6.jpg",
-  },
-  {
-    id: "5",
-    name: "Kevin Chen",
-    position: "Wealth Management Advisor",
-    photo: "/images/photo-5.jpg",
-  },
-  {
-    id: "6",
-    name: "Samantha Lewis",
-    position: "Financial Planner",
-    photo: "/images/photo-8.jpg",
-  },
-  {
-    id: "7",
-    name: "Daniel Garcia",
-    position: "Tax Consultant",
-    photo: "/images/photo-7.jpg",
-  },
-  {
-    id: "8",
-    name: "Rachel Kim",
-    position: "Portfolio Manager",
-    photo: "/images/photo-9.jpg",
+    title: "Debt settlement management",
+    content:
+      "A key advantage of debt management services is their ability to assist debtors in minimizing the total amount of interest paid on their debts.",
   },
 ];
