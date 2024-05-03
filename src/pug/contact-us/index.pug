@@ -1,0 +1,43 @@
+extends ../layouts/layout
+block content
+    +header(true, "", "", "", "", " !text-color-4", "",)
+    // hero
+    <div class="relative -mt-[6.75rem] pt-[14.125rem] pb-50 bg-color-3 2xl:pb-40 2xl:-mt-24 lg:pt-50 md:-mt-18 md:pt-48">
+        <div class="container">
+            <div class="mb-22 text-h0-desktop text-color-1 2xl:mb-18 2xl:text-h0-tablet md:mb-16 md:text-h0-mobile">Contact Us</div>
+            <div class="max-w-[29.25rem] text-xl text-color-5 md:text-base">Let’s discuss your project, together we will find a solution to the most difficult tasks</div>
+        </div>
+    </div>
+    // form
+    <div class="section">
+        <div class="relative">
+            <div class="container">
+                <div class="relative z-2 max-w-[60vw] pr-20 lg:max-w-full lg:pr-0">
+                    <form class="max-w-[39.5rem] lg:max-w-full" action="">
+                        <div class="mb-10 md:mb-8">
+                            <input class="w-full h-[3.875rem] px-8 border border-color-7 bg-transparent text-xl tracking-[0.015em] text-color-2 transition-colors placeholder:text-color-7 focus:border-color-4 outline-none md:h-13 md:px-6 md:text-sm" type="text" name="your-name" placeholder="Your Name" required />
+                        </div>
+                        <div class="mb-10 md:mb-8">
+                            <input class="w-full h-[3.875rem] px-8 border border-color-7 bg-transparent text-xl tracking-[0.015em] text-color-2 transition-colors placeholder:text-color-7 focus:border-color-4 outline-none md:h-13 md:px-6 md:text-sm" type="email" name="email" placeholder="Email" required />
+                        </div>
+                        <div class="mb-10 md:mb-8">
+                            <input class="w-full h-[3.875rem] px-8 border border-color-7 bg-transparent text-xl tracking-[0.015em] text-color-2 transition-colors placeholder:text-color-7 focus:border-color-4 outline-none md:h-13 md:px-6 md:text-sm" type="text" name="company-name" placeholder="Company Name" required />
+                        </div>
+                        <div class="mb-10 md:mb-8">
+                            <input class="w-full h-[3.875rem] px-8 border border-color-7 bg-transparent text-xl tracking-[0.015em] text-color-2 transition-colors placeholder:text-color-7 focus:border-color-4 outline-none md:h-13 md:px-6 md:text-sm" type="tel" name="phone" placeholder="Phone Number" required />
+                        </div>
+                        <div class="mb-10 md:mb-8">
+                            <input class="w-full h-[3.875rem] px-8 border border-color-7 bg-transparent text-xl tracking-[0.015em] text-color-2 transition-colors placeholder:text-color-7 focus:border-color-4 outline-none md:h-13 md:px-6 md:text-sm" type="tel" name="number" placeholder="Number" required />
+                        </div>
+                        <div class="mb-30 xl:mb-20 lg:mb-12 md:mb-10">
+                            <textarea class="w-full h-[18.875rem] px-8 py-4 border border-color-7 bg-transparent text-xl tracking-[0.015em] text-color-2 transition-colors placeholder:text-color-7 focus:border-color-4 outline-none resize-none md:h-52 md:px-6 md:text-sm" name="message" placeholder="Tell us a little about your business and what you’re to do next" required ></textarea>
+                        </div>
+                        <button class="btn text-lg tracking-[0.25em]" type="submit">GET IN TOUCH</button>
+                    </form>
+                </div>
+                <div class="absolute top-0 right-0 bottom-0 w-[37vw] max-h-[50rem] lg:h-[40rem] lg:relative lg:inset-auto lg:w-auto lg:mt-18 md:h-[30.75rem]">
+                    img(class="absolute top-0 left-0 w-full h-full object-cover" src=require('Images/image-9.jpg') alt="")
+                </div>
+            </div>
+        </div>
+    </div>

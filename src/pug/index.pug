@@ -1,0 +1,250 @@
+extends layouts/layout
+block content
+    +header(false, " !text-color-4", "", "", "", "", "")
+    // home
+    <div class="relative pt-30 pb-56 2xl:pb-40 xl:pt-24 xl:pb-30 md:pt-[15.5rem] md:pb-24">
+        <div class="container">
+            <div class="relative z-2 max-w-[50.32rem] 2xl:max-w-[42rem]">
+                <div class="mb-22 text-h0-desktop 2xl:text-h0-tablet xl:mb-18 md:mb-8 md:text-h1-mobile">Protect your assets with risk management</div>
+                <div class="max-w-[29.25rem] mb-12 text-color-7 xl:w-[20.625rem] md:mb-6">Our commitment to providing exceptional service starts with our team members. We carefully select and train each member of our team to ensure they have the skills.</div>
+                <button class="btn-blue text-lg tracking-[0.25em]">GET STARTED</button>
+            </div>
+        </div>
+        <div class="absolute top-0 right-0 bottom-0 w-[58vw] after:absolute after:inset-0 after:bg-color-1/30 4xl:w-[59vw] 2xl:w-[50vw] xl:w-[60vw] lg:w-[48vw] md:bottom-auto md:w-[70vw] md:h-[21.375rem]">
+            img(class="absolute top-0 left-0 w-full h-full object-cover" src=require('Images/image-1.jpg') alt="")
+        </div>
+    </div>
+    // about us
+    <div class="section-light relative pt-[12.5rem] 2xl:pt-40 xl:pt-30 md:pt-24 md:pb-0">
+        <div class="container">
+            <div class="relative z-2 max-w-[45.88rem]">
+                <div class="label-dark">ABOUT US</div>
+                <div class="mb-18 text-h1-desktop 2xl:text-h1-tablet xl:mb-16 md:mb-10 md:text-h1-mobile">Empowering your financial future</div>
+                <div class="max-w-[29.25rem] mb-10 text-color-5 xl:max-w-[28rem] lg:max-w-[20rem]">We understand that financial planning can be a complex and daunting task for many individuals and businesses. That&apos;s why we&apos;re here to guide you every step of the way, providing tailored solutions that align with your unique financial.
+                </div>
+                <a class="btn" href="about-us.html">LEARN MORE</a>
+            </div>
+        </div>
+        <div class="absolute top-[12rem] right-0 bottom-0 w-[37vw] 2xl:top-40 2xl:w-[45vw] xl:top-30 xl:w-[48vw] md:relative md:inset-auto md:w-auto md:h-[30rem] md:mt-16">
+            img(class="absolute top-0 left-0 w-full h-full object-cover" src=require('Images/image-2.jpg') alt="")
+        </div>
+    </div>
+    // services
+    <div class="section">
+        <div class="container">
+            <div class="label">SERVICES</div>
+            <div class="max-w-[48rem] mb-30 text-h1-desktop 2xl:text-h1-tablet xl:mb-20 md:mb-16 md:text-h1-mobile">Customized financial solutions</div>
+            <div>
+                <div class="accordion-item relative mb-20 last:mb-0 xl:mb-18 md:mb-16 active">
+                    <div class="accordion-head group relative z-1 cursor-pointer tap-highlight-color pr-[41.6875rem] xl:pr-[30.375rem] lg:pr-[7.75rem] md:pr-20">
+                        <div class="label mb-6 text-color-2">01</div>
+                        <div class="accordion-title text-h2-desktop text-color-2 transition-colors group-hover:text-color-4 2xl:text-h2-tablet 2xl:group-hover:text-color-2 md:text-h6">Financial planning</div>
+                        <div class="accordion-plus absolute right-0 bottom-0 w-16 h-16 rounded-full bg-color-2 transition-colors before:absolute before:top-1/2 before:left-1/2 before:-translate-x-1/2 before:-translate-y-1/2 before:w-4 before:h-0.5 before:bg-color-1 after:absolute after:top-1/2 after:left-1/2 after:-translate-x-1/2 after:-translate-y-1/2 after:w-0.5 after:h-4 after:bg-color-1 after:transition-all md:top-0 md:bottom-auto"></div>
+                    </div>
+                    <div class="accordion-content hidden pt-14 pr-[41.6875rem] xl:pr-[30.375rem] lg:pr-0 md:pt-10">
+                        <div class="max-w-[29.25rem] text-color-7 xl:max-w-full lg:max-w-full">We understand that financial planning can be a complex and daunting task for many individuals and businesses. That's why we're here to guide you.</div>
+                        <a class="btn mt-10" href="services.html">LEARN MORE</a>
+                        <div class="absolute top-0 left-[calc(100%-39.6875rem)] right-[10.5rem] bottom-4 max-h-[35rem] xl:left-[calc(100%-27.375rem)] xl:right-[7.75rem] xl:bottom-0 xl:max-h-[27.5rem] lg:relative lg:top-auto lg:left-auto lg:right-auto lg:bottom-auto lg:h-[27.5rem] lg:mx-auto lg:mt-16 md:h-[25rem]">
+                            img(class="absolute top-0 left-0 w-full h-full object-cover" src=require('Images/image-3.jpg') alt="")
+                        </div>
+                    </div>
+                </div>
+                 <div class="accordion-item relative mb-20 last:mb-0 xl:mb-18 md:mb-16">
+                    <div class="accordion-head group relative z-1 cursor-pointer tap-highlight-color pr-[41.6875rem] xl:pr-[30.375rem] lg:pr-[7.75rem] md:pr-20">
+                        <div class="label mb-6 text-color-2">02</div>
+                        <div class="accordion-title text-h2-desktop text-color-2 transition-colors group-hover:text-color-4 2xl:text-h2-tablet 2xl:group-hover:text-color-2 md:text-h6">Business planning</div>
+                        <div class="accordion-plus absolute right-0 bottom-0 w-16 h-16 rounded-full bg-color-2 transition-colors before:absolute before:top-1/2 before:left-1/2 before:-translate-x-1/2 before:-translate-y-1/2 before:w-4 before:h-0.5 before:bg-color-1 after:absolute after:top-1/2 after:left-1/2 after:-translate-x-1/2 after:-translate-y-1/2 after:w-0.5 after:h-4 after:bg-color-1 after:transition-all md:top-0 md:bottom-auto"></div>
+                    </div>
+                    <div class="accordion-content hidden pt-14 pr-[41.6875rem] xl:pr-[30.375rem] lg:pr-0 md:pt-10">
+                        <div class="max-w-[29.25rem] text-color-7 xl:max-w-full lg:max-w-full">We understand that financial planning can be a complex and daunting task for many individuals and businesses. That's why we're here to guide you.</div>
+                        <a class="btn mt-10" href="services.html">LEARN MORE</a>
+                        <div class="absolute top-0 left-[calc(100%-39.6875rem)] right-[10.5rem] bottom-4 max-h-[35rem] xl:left-[calc(100%-27.375rem)] xl:right-[7.75rem] xl:bottom-0 xl:max-h-[27.5rem] lg:relative lg:top-auto lg:left-auto lg:right-auto lg:bottom-auto lg:h-[27.5rem] lg:mx-auto lg:mt-16 md:h-[25rem]">
+                            img(class="absolute top-0 left-0 w-full h-full object-cover" src=require('Images/image-2.jpg') alt="")
+                        </div>
+                    </div>
+                </div>
+                 <div class="accordion-item relative mb-20 last:mb-0 xl:mb-18 md:mb-16">
+                    <div class="accordion-head group relative z-1 cursor-pointer tap-highlight-color pr-[41.6875rem] xl:pr-[30.375rem] lg:pr-[7.75rem] md:pr-20">
+                        <div class="label mb-6 text-color-2">03</div>
+                        <div class="accordion-title text-h2-desktop text-color-2 transition-colors group-hover:text-color-4 2xl:text-h2-tablet 2xl:group-hover:text-color-2 md:text-h6">Invest management</div>
+                        <div class="accordion-plus absolute right-0 bottom-0 w-16 h-16 rounded-full bg-color-2 transition-colors before:absolute before:top-1/2 before:left-1/2 before:-translate-x-1/2 before:-translate-y-1/2 before:w-4 before:h-0.5 before:bg-color-1 after:absolute after:top-1/2 after:left-1/2 after:-translate-x-1/2 after:-translate-y-1/2 after:w-0.5 after:h-4 after:bg-color-1 after:transition-all md:top-0 md:bottom-auto"></div>
+                    </div>
+                    <div class="accordion-content hidden pt-14 pr-[41.6875rem] xl:pr-[30.375rem] lg:pr-0 md:pt-10">
+                        <div class="max-w-[29.25rem] text-color-7 xl:max-w-full lg:max-w-full">We understand that financial planning can be a complex and daunting task for many individuals and businesses. That's why we're here to guide you.</div>
+                        <a class="btn mt-10" href="services.html">LEARN MORE</a>
+                        <div class="absolute top-0 left-[calc(100%-39.6875rem)] right-[10.5rem] bottom-4 max-h-[35rem] xl:left-[calc(100%-27.375rem)] xl:right-[7.75rem] xl:bottom-0 xl:max-h-[27.5rem] lg:relative lg:top-auto lg:left-auto lg:right-auto lg:bottom-auto lg:h-[27.5rem] lg:mx-auto lg:mt-16 md:h-[25rem]">
+                            img(class="absolute top-0 left-0 w-full h-full object-cover" src=require('Images/image-3.jpg') alt="")
+                        </div>
+                    </div>
+                </div>
+                 <div class="accordion-item relative mb-20 last:mb-0 xl:mb-18 md:mb-16">
+                    <div class="accordion-head group relative z-1 cursor-pointer tap-highlight-color pr-[41.6875rem] xl:pr-[30.375rem] lg:pr-[7.75rem] md:pr-20">
+                        <div class="label mb-6 text-color-2">04</div>
+                        <div class="accordion-title text-h2-desktop text-color-2 transition-colors group-hover:text-color-4 2xl:text-h2-tablet 2xl:group-hover:text-color-2 md:text-h6">Retirement management</div>
+                        <div class="accordion-plus absolute right-0 bottom-0 w-16 h-16 rounded-full bg-color-2 transition-colors before:absolute before:top-1/2 before:left-1/2 before:-translate-x-1/2 before:-translate-y-1/2 before:w-4 before:h-0.5 before:bg-color-1 after:absolute after:top-1/2 after:left-1/2 after:-translate-x-1/2 after:-translate-y-1/2 after:w-0.5 after:h-4 after:bg-color-1 after:transition-all md:top-0 md:bottom-auto"></div>
+                    </div>
+                    <div class="accordion-content hidden pt-14 pr-[41.6875rem] xl:pr-[30.375rem] lg:pr-0 md:pt-10">
+                        <div class="max-w-[29.25rem] text-color-7 xl:max-w-full lg:max-w-full">We understand that financial planning can be a complex and daunting task for many individuals and businesses. That's why we're here to guide you.</div>
+                        <a class="btn mt-10" href="services.html">LEARN MORE</a>
+                        <div class="absolute top-0 left-[calc(100%-39.6875rem)] right-[10.5rem] bottom-4 max-h-[35rem] xl:left-[calc(100%-27.375rem)] xl:right-[7.75rem] xl:bottom-0 xl:max-h-[27.5rem] lg:relative lg:top-auto lg:left-auto lg:right-auto lg:bottom-auto lg:h-[27.5rem] lg:mx-auto lg:mt-16 md:h-[25rem]">
+                            img(class="absolute top-0 left-0 w-full h-full object-cover" src=require('Images/image-2.jpg') alt="")
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    // webinars
+    <div class="section-light">
+        <div class="container">
+            <div class="label-dark">WEBINARS</div>
+            <div class="max-w-[50.32rem] mb-30 text-h1-desktop 2xl:text-h1-tablet xl:mb-20 md:mb-12 md:-mr-2 md:text-h1-mobile">Building stable financial future</div>
+            <div class="">
+                <div class="group flex items-end mb-16 cursor-pointer tap-highlight-color last:mb-0 xl:mb-12 md:block" data-fancybox href="https://www.youtube.com/watch?v=4cR7E79X8Ys&t=2s&ab_channel=UI8Marketplace">
+                    <div class="relative w-1/2 pr-5 xl:w-[62%] xl:pr-0 lg:w-[55%] md:w-full">
+                        <div class="relative h-[25rem] xl:h-[23rem] lg:h-[18rem] md:h-60">
+                            img(class="absolute top-0 left-0 w-full h-full object-cover" src=require('Images/webinar-pic-1.jpg') alt="")
+                            <div class="absolute left-3 bottom-3 flex justify-center items-center w-16 h-16 rounded-full bg-color-2 fill-color-1 transition-colors group-hover:bg-color-4 group-hover:fill-color-2">
+                                svg(class="fill-inherit" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24")
+                                    path(d="M7.132 18.109V5.891L16.643 12l-9.511 6.109z")
+                            </div>
+                        </div>
+                    </div>
+                    <div class="w-1/2 pl-5 xl:w-[38%] xl:pl-10 lg:w-[45%] lg:pl-6 md:w-full md:pt-4 md:pl-0">
+                        <div class="label-dark text-color-5">EPS 25</div>
+                        <div class="max-w-[29.25rem] text-h5 transition-colors group-hover:text-color-4 xl:text-h6">Maximizing your investments: strategies for growth</div>
+                    </div>
+                </div>
+                <div class="group flex items-end mb-16 cursor-pointer tap-highlight-color last:mb-0 xl:mb-12 md:block" data-fancybox href="https://www.youtube.com/watch?v=4cR7E79X8Ys&t=2s&ab_channel=UI8Marketplace">
+                    <div class="relative w-1/2 pr-5 xl:w-[62%] xl:pr-0 lg:w-[55%] md:w-full">
+                        <div class="relative h-[25rem] xl:h-[23rem] lg:h-[18rem] md:h-60">
+                            img(class="absolute top-0 left-0 w-full h-full object-cover" src=require('Images/webinar-pic-2.jpg') alt="")
+                            <div class="absolute left-3 bottom-3 flex justify-center items-center w-16 h-16 rounded-full bg-color-2 fill-color-1 transition-colors group-hover:bg-color-4 group-hover:fill-color-2">
+                                svg(class="fill-inherit" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24")
+                                    path(d="M7.132 18.109V5.891L16.643 12l-9.511 6.109z")
+                            </div>
+                        </div>
+                    </div>
+                    <div class="w-1/2 pl-5 xl:w-[38%] xl:pl-10 lg:w-[45%] lg:pl-6 md:w-full md:pt-4 md:pl-0">
+                        <div class="label-dark text-color-5">EPS 24</div>
+                        <div class="max-w-[29.25rem] text-h5 transition-colors group-hover:text-color-4 xl:text-h6">Investments strategies for a volatile market</div>
+                    </div>
+                </div>
+                <div class="group flex items-end mb-16 cursor-pointer tap-highlight-color last:mb-0 xl:mb-12 md:block" data-fancybox href="https://www.youtube.com/watch?v=4cR7E79X8Ys&t=2s&ab_channel=UI8Marketplace">
+                    <div class="relative w-1/2 pr-5 xl:w-[62%] xl:pr-0 lg:w-[55%] md:w-full">
+                        <div class="relative h-[25rem] xl:h-[23rem] lg:h-[18rem] md:h-60">
+                            img(class="absolute top-0 left-0 w-full h-full object-cover" src=require('Images/webinar-pic-3.jpg') alt="")
+                            <div class="absolute left-3 bottom-3 flex justify-center items-center w-16 h-16 rounded-full bg-color-2 fill-color-1 transition-colors group-hover:bg-color-4 group-hover:fill-color-2">
+                                svg(class="fill-inherit" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24")
+                                    path(d="M7.132 18.109V5.891L16.643 12l-9.511 6.109z")
+                            </div>
+                        </div>
+                    </div>
+                    <div class="w-1/2 pl-5 xl:w-[38%] xl:pl-10 lg:w-[45%] lg:pl-6 md:w-full md:pt-4 md:pl-0">
+                        <div class="label-dark text-color-5">EPS 23</div>
+                        <div class="max-w-[29.25rem] text-h5 transition-colors group-hover:text-color-4 xl:text-h6">Growth strategies for maximizing your investments</div>
+                    </div>
+                </div>
+            </div>
+            <button class="btn mt-30 xl:mt-20 md:mt-12">VIEW MORE</button>
+        </div>
+    </div>
+    // articles
+    <div class="section">
+        <div class="container">
+            <div class="label">ARTICLE</div>
+            <div class="mb-30 text-h1-desktop 2xl:text-h1-tablet xl:mb-20 md:mb-16 md:text-h1-mobile">The finance insider</div>
+            <div class="group/slider relative">
+                <div class="absolute top-[15.125rem] left-[calc(50%+5.25rem)] z-2 flex justify-center items-center w-50 h-50 -translate-x-1/2 rounded-full bg-color-4 font-normal text-xl text-color-2 pointer-events-none transition-all group-hover:invisible group-hover/slider:opacity-0 group-hover/slider:scale-75 xl:top-[10.5rem] xl:w-40 xl:h-40 lg:hidden">DRAG</div>
+                <div class="swiper slider">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <a class="group" href="article.html">
+                                <div class="relative h-[31.25rem] mb-16 xl:h-[22rem] xl:mb-10 md:h-[22.5rem]">
+                                    img(class="absolute top-0 left-0 w-full h-full object-cover" src=require('Images/article-pic-1.jpg') alt="")
+                                </div>
+                                <div class="mb-4 uppercase text-sm text-color-7">MARCH 01, 2022</div>
+                                <div class="text-h6 transition-colors group-hover:text-color-4 xl:text-h7">Achieving Investment Growth: Tips and Strategies for Success</div>
+                            </a>
+                        </div>
+                        <div class="swiper-slide">
+                            <a class="group" href="article.html">
+                                <div class="relative h-[31.25rem] mb-16 xl:h-[22rem] xl:mb-10 md:h-[22.5rem]">
+                                    img(class="absolute top-0 left-0 w-full h-full object-cover" src=require('Images/article-pic-2.jpg') alt="")
+                                </div>
+                                <div class="mb-4 uppercase text-sm text-color-7">FEBRUARY 20, 2022</div>
+                                <div class="text-h6 transition-colors group-hover:text-color-4 xl:text-h7">How to Build a High-Growth Investment Portfolio</div>
+                            </a>
+                        </div>
+                        <div class="swiper-slide">
+                            <a class="group" href="article.html">
+                                <div class="relative h-[31.25rem] mb-16 xl:h-[22rem] xl:mb-10 md:h-[22.5rem]">
+                                    img(class="absolute top-0 left-0 w-full h-full object-cover" src=require('Images/article-pic-3.jpg') alt="")
+                                </div>
+                                <div class="mb-4 uppercase text-sm text-color-7">FEBRUARY 15, 2022</div>
+                                <div class="text-h6 transition-colors group-hover:text-color-4 xl:text-h7">The Benefits of Hiring a Financial Consultant for Debt Management</div>
+                            </a>
+                        </div>
+                        <div class="swiper-slide">
+                            <a class="group" href="article.html">
+                                <div class="relative h-[31.25rem] mb-16 xl:h-[22rem] xl:mb-10 md:h-[22.5rem]">
+                                    img(class="absolute top-0 left-0 w-full h-full object-cover" src=require('Images/article-pic-1.jpg') alt="")
+                                </div>
+                                <div class="mb-4 uppercase text-sm text-color-7">MARCH 01, 2022</div>
+                                <div class="text-h6 transition-colors group-hover:text-color-4 xl:text-h7">Achieving Investment Growth: Tips and Strategies for Success</div>
+                            </a>
+                        </div>
+                        <div class="swiper-slide">
+                            <a class="group" href="article.html">
+                                <div class="relative h-[31.25rem] mb-16 xl:h-[22rem] xl:mb-10 md:h-[22.5rem]">
+                                    img(class="absolute top-0 left-0 w-full h-full object-cover" src=require('Images/article-pic-2.jpg') alt="")
+                                </div>
+                                <div class="mb-4 uppercase text-sm text-color-7">FEBRUARY 20, 2022</div>
+                                <div class="text-h6 transition-colors group-hover:text-color-4 xl:text-h7">How to Build a High-Growth Investment Portfolio</div>
+                            </a>
+                        </div>
+                        <div class="swiper-slide">
+                            <a class="group" href="article.html">
+                                <div class="relative h-[31.25rem] mb-16 xl:h-[22rem] xl:mb-10 md:h-[22.5rem]">
+                                    img(class="absolute top-0 left-0 w-full h-full object-cover" src=require('Images/article-pic-3.jpg') alt="")
+                                </div>
+                                <div class="mb-4 uppercase text-sm text-color-7">FEBRUARY 15, 2022</div>
+                                <div class="text-h6 transition-colors group-hover:text-color-4 xl:text-h7">The Benefits of Hiring a Financial Consultant for Debt Management</div>
+                            </a>
+                        </div>
+                        <div class="swiper-slide">
+                            <a class="group" href="article.html">
+                                <div class="relative h-[31.25rem] mb-16 xl:h-[22rem] xl:mb-10 md:h-[22.5rem]">
+                                    img(class="absolute top-0 left-0 w-full h-full object-cover" src=require('Images/article-pic-1.jpg') alt="")
+                                </div>
+                                <div class="mb-4 uppercase text-sm text-color-7">MARCH 01, 2022</div>
+                                <div class="text-h6 transition-colors group-hover:text-color-4 xl:text-h7">Achieving Investment Growth: Tips and Strategies for Success</div>
+                            </a>
+                        </div>
+                        <div class="swiper-slide">
+                            <a class="group" href="article.html">
+                                <div class="relative h-[31.25rem] mb-16 xl:h-[22rem] xl:mb-10 md:h-[22.5rem]">
+                                    img(class="absolute top-0 left-0 w-full h-full object-cover" src=require('Images/article-pic-2.jpg') alt="")
+                                </div>
+                                <div class="mb-4 uppercase text-sm text-color-7">FEBRUARY 20, 2022</div>
+                                <div class="text-h6 transition-colors group-hover:text-color-4 xl:text-h7">How to Build a High-Growth Investment Portfolio</div>
+                            </a>
+                        </div>
+                        <div class="swiper-slide">
+                            <a class="group" href="article.html">
+                                <div class="relative h-[31.25rem] mb-16 xl:h-[22rem] xl:mb-10 md:h-[22.5rem]">
+                                    img(class="absolute top-0 left-0 w-full h-full object-cover" src=require('Images/article-pic-3.jpg') alt="")
+                                </div>
+                                <div class="mb-4 uppercase text-sm text-color-7">FEBRUARY 15, 2022</div>
+                                <div class="text-h6 transition-colors group-hover:text-color-4 xl:text-h7">The Benefits of Hiring a Financial Consultant for Debt Management</div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="swiper-pagination"></div>
+                    <div class="swiper-scrollbar"></div>
+                </div>
+            </div>
+            <a class="btn mt-22 md:mt-16" href="blog.html">LEARN MORE</a>
+        </div>
+    </div>
+    include includes/achieve

@@ -1,0 +1,10 @@
+include mixins
+doctype html
+html(lang="en")
+    head
+        include head
+    body
+        div(class="min-h-screen pt-[6.75rem] overflow-hidden 2xl:pt-24 md:pt-18")
+            block content
+            include ../includes/footer
+        script(src=require('../../app.js'))

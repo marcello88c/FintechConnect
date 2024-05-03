@@ -1,0 +1,62 @@
+extends ../layouts/layout
+block content
+    +header(true, "", "", "", " !text-color-4", "", "",)
+    // hero
+    <div class="relative min-h-[39.88rem] -mt-[6.75rem] pt-[14.125rem] pb-30 bg-color-3 2xl:-mt-24 md:min-h-[38rem] md:-mt-18 md:pt-[12.5rem]">
+        <div class="container">
+            <div class="mb-18 text-h0-desktop text-color-1 2xl:text-h0-tablet md:text-h0-mobile">We love to share stuff</div>
+            <div class="max-w-[29.25rem] text-2xl text-color-5 xl:text-xl md:text-lg">News, articles and whitepapers from our team of experts on how data and technology is transforming financial planner.</div>
+        </div>
+    </div>
+    // blog articles
+    <div class="section">
+        <div class="container">
+            <div class="label">BLOG</div>
+            <div class="max-w-[50.32rem] mb-28 text-h1-desktop 2xl:text-h1-tablet xl:mb-20 md:mb-16 md:text-h1-mobile">The latest market trends and insights</div>
+            <div class="flex flex-wrap -mb-22 -mx-5 lg:-mb-16 md:block md:m-0 md:-mb-14">
+                <a class="group block w-[calc(62.5%-2.5rem)] mb-36 mx-5 lg:mb-24 md:w-full md:mx-0 md:mb-14" href="article.html">
+                    <div class="relative h-[45rem] mb-16 xl:h-[35rem] xl:mb-14 lg:h-[30rem] md:h-auto md:aspect-[1.36] md:mb-10">
+                        img(class="absolute top-0 left-0 w-full h-full object-cover" src=require('Images/blog-pic-1.jpg') alt="")
+                    </div>
+                    <div class="mb-2 text-sm text-color-7">MARCH 20, 2022</div>
+                    <div class="text-h3 transition-colors group-hover:text-color-4 xl:text-h5 lg:text-h6 md:text-h7">5 essential financial strategies for long-term wealth creation</div>
+                </a>
+                <a class="group block w-[calc(37.5%-2.5rem)] mb-36 mx-5 lg:mb-24 md:w-full md:mx-0 md:mb-14" href="article.html">
+                    <div class="relative h-[31.25rem] mb-16 xl:h-[22.25rem] xl:mb-14 md:h-auto md:aspect-[1.36] md:mb-10">
+                        img(class="absolute top-0 left-0 w-full h-full object-cover" src=require('Images/blog-pic-2.jpg') alt="")
+                    </div>
+                    <div class="mb-2 text-sm text-color-7">MARCH 18, 2022</div>
+                    <div class="text-h5 transition-colors group-hover:text-color-4 xl:text-h6 lg:text-h7">Navigating tax planning: How to optimize your tax strategy</div>
+                </a>
+                <a class="group block w-[calc(50%-2.5rem)] mb-22 mx-5 lg:mb-16 md:w-full md:mx-0 md:mb-14" href="article.html">
+                    <div class="relative h-[31.25rem] mb-16 xl:h-[22.25rem] xl:mb-14 md:h-auto md:aspect-[1.36] md:mb-10">
+                        img(class="absolute top-0 left-0 w-full h-full object-cover" src=require('Images/blog-pic-3.jpg') alt="")
+                    </div>
+                    <div class="mb-2 text-sm text-color-7">MARCH 16, 2022</div>
+                    <div class="text-h5 transition-colors group-hover:text-color-4 xl:text-h6 lg:text-h7">How they can help you achieve your financial goals</div>
+                </a>
+                <a class="group block w-[calc(50%-2.5rem)] mb-22 mx-5 lg:mb-16 md:w-full md:mx-0 md:mb-14" href="article.html">
+                    <div class="relative h-[31.25rem] mb-16 xl:h-[22.25rem] xl:mb-14 md:h-auto md:aspect-[1.36] md:mb-10">
+                        img(class="absolute top-0 left-0 w-full h-full object-cover" src=require('Images/blog-pic-4.jpg') alt="")
+                    </div>
+                    <div class="mb-2 text-sm text-color-7">MARCH 14, 2022</div>
+                    <div class="text-h5 transition-colors group-hover:text-color-4 xl:text-h6 lg:text-h7">The role of financial consultants in retirement</div>
+                </a>
+                <a class="group block w-[calc(50%-2.5rem)] mb-22 mx-5 lg:mb-16 md:w-full md:mx-0 md:mb-14" href="article.html">
+                    <div class="relative h-[31.25rem] mb-16 xl:h-[22.25rem] xl:mb-14 md:h-auto md:aspect-[1.36] md:mb-10">
+                        img(class="absolute top-0 left-0 w-full h-full object-cover" src=require('Images/blog-pic-5.jpg') alt="")
+                    </div>
+                    <div class="mb-2 text-sm text-color-7">MARCH 11, 2022</div>
+                    <div class="text-h5 transition-colors group-hover:text-color-4 xl:text-h6 lg:text-h7">The benefits of hiring a financial consultant for debt management</div>
+                </a>
+                <a class="group block w-[calc(50%-2.5rem)] mb-22 mx-5 lg:mb-16 md:w-full md:mx-0 md:mb-14" href="article.html">
+                    <div class="relative h-[31.25rem] mb-16 xl:h-[22.25rem] xl:mb-14 md:h-auto md:aspect-[1.36] md:mb-10">
+                        img(class="absolute top-0 left-0 w-full h-full object-cover" src=require('Images/blog-pic-6.jpg') alt="")
+                    </div>
+                    <div class="mb-2 text-sm text-color-7">MARCH 08, 2022</div>
+                    <div class="text-h5 transition-colors group-hover:text-color-4 xl:text-h6 lg:text-h7">Retirement planning: steps to ensure a comfortable retirement</div>
+                </a>
+            </div>
+            <button class="btn mt-30 text-lg tracking-[0.25em] xl:mt-20 md:mt-16">VIEW MORE</button>
+        </div>
+    </div>
