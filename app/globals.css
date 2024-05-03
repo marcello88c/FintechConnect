@@ -1,0 +1,24 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+    .slider.swiper {
+        @apply -ml-5 -mr-[11.8rem] pb-[11.5rem] overflow-visible 2xl:pb-32 lg:-mr-5 md:pb-24;
+    }
+    .slider .swiper-slide {
+        @apply px-5;
+    }
+    .slider .swiper-pagination {
+        @apply !right-[11.5rem] !left-auto bottom-0 flex items-center w-auto text-base text-color-5 lg:!right-5;
+    }
+    .slider .swiper-pagination-current {
+        @apply mr-2 text-2xl font-semibold text-color-2;
+    }
+    .slider .swiper-scrollbar {
+        @apply !top-auto !left-5 !bottom-3 !w-[25.75rem] !h-1.5 !bg-transparent !opacity-100 before:absolute before:top-1/2 before:left-0 before:right-0 before:h-0.25 before:-translate-y-1/2 before:bg-color-2 md:!w-[13.25rem];
+    }
+    .slider .swiper-scrollbar-drag {
+        @apply !bg-color-4 !rounded-none;
+    }
+}
